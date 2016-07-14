@@ -12,6 +12,8 @@
 		CA6C25FC1D35890C008C2C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6C25FA1D35890C008C2C65 /* Main.storyboard */; };
 		CA6C25FE1D35890C008C2C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6C25FD1D35890C008C2C65 /* Assets.xcassets */; };
 		CA6C26011D35890C008C2C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6C25FF1D35890C008C2C65 /* LaunchScreen.storyboard */; };
+		CAC43BFF1D36E22000870F48 /* byeFeliciaAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CAC43BFE1D36E22000870F48 /* byeFeliciaAudio.m4a */; };
+		CAC43C011D36E24900870F48 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC43C001D36E24900870F48 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CA6C25FD1D35890C008C2C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA6C26001D35890C008C2C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA6C26021D35890C008C2C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC43BFE1D36E22000870F48 /* byeFeliciaAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = byeFeliciaAudio.m4a; sourceTree = "<group>"; };
+		CAC43C001D36E24900870F48 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC43C011D36E24900870F48 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		CA6C25EA1D35890C008C2C65 = {
 			isa = PBXGroup;
 			children = (
+				CAC43C001D36E24900870F48 /* AVFoundation.framework */,
 				CA6C25F51D35890C008C2C65 /* Button */,
 				CA6C25F41D35890C008C2C65 /* Products */,
 			);
@@ -57,6 +63,7 @@
 				CA6C25F61D35890C008C2C65 /* AppDelegate.swift */,
 				CA6C25F81D35890C008C2C65 /* ViewController.swift */,
 				CA6C25FA1D35890C008C2C65 /* Main.storyboard */,
+				CAC43BFE1D36E22000870F48 /* byeFeliciaAudio.m4a */,
 				CA6C25FD1D35890C008C2C65 /* Assets.xcassets */,
 				CA6C25FF1D35890C008C2C65 /* LaunchScreen.storyboard */,
 				CA6C26021D35890C008C2C65 /* Info.plist */,
@@ -124,6 +131,7 @@
 			files = (
 				CA6C26011D35890C008C2C65 /* LaunchScreen.storyboard in Resources */,
 				CA6C25FE1D35890C008C2C65 /* Assets.xcassets in Resources */,
+				CAC43BFF1D36E22000870F48 /* byeFeliciaAudio.m4a in Resources */,
 				CA6C25FC1D35890C008C2C65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +296,7 @@
 				CA6C26071D35890C008C2C65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
